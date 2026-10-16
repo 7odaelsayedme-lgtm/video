@@ -1,5 +1,7 @@
 # سلسلة «أصحاب المزرعة» — الحلقة 1: «موو، بيب، أُنك!»
 
+> **النسخة المنفّذة:** الفيديو مبني بالكود في هذا المستودع (`src/FarmSong.tsx`) — انظر README.
+
 **الفئة العمرية:** 2–6 سنوات · **المدة:** 45 ثانية · **الصيغة:** 3D كرتون · **المقاس:** 9:16 لـ Shorts (مع نسخة 16:9 لـ YouTube Kids، الشخصيات دائمًا في منتصف الكادر)
 
 ---
@@ -51,7 +53,7 @@
 
 ## 2) كلمات الأغنية الأصلية: «موو، بيب، أُنك!»
 
-> إيقاع 112 BPM — كل سطر = مازورة واحدة تقريبًا (≈2.1 ثانية).
+> إيقاع 128 BPM — كل مشهد (7.5 ث) = 16 نبضة = 4 مازورات بالضبط، فكل قطع يقع على أول النبضة.
 
 **[المقدمة — 0:00]**
 بيب! 🐥
@@ -163,7 +165,7 @@ flashing lights, strobe, fast flicker, scary faces, sharp teeth, realistic anima
 
 ## 5) حركة الكاميرا والشخصيات (دليل التحريك والمزامنة)
 
-> كل نبضة إيقاع = 0.536 ث (112 BPM). كل حركة رئيسية تقع **على النبضة**.
+> كل نبضة إيقاع = 0.469 ث (128 BPM). كل حركة رئيسية تقع **على النبضة**.
 
 | المشهد | الكاميرا | حركة الشخصيات (متزامنة مع الإيقاع) |
 |---|---|---|
@@ -191,7 +193,7 @@ flashing lights, strobe, fast flicker, scary faces, sharp teeth, realistic anima
 ## 6) الموسيقى والمؤثرات الصوتية
 
 ### الموسيقى (لحن أصلي)
-- **السرعة والمقام:** 112 BPM، **دو الكبير (C Major)**، ميزان 4/4.
+- **السرعة والمقام:** 128 BPM، **دو الكبير (C Major)**، ميزان 4/4.
 - **الآلات:** يوكوليلي (عزف Strum مرح)، ماريمبا/زايلوفون للحن الرئيسي، باس ناعم (Pizzicato أو Synth bass دافئ)، تصفيق خفيف، شيكر، Glockenspiel للزينة.
 - **اللحن:** خطوات قصيرة في مدى خماسي (C–D–E–G–A) سهل لصوت الطفل، مع **موتيف من 3 نوتات للمقدمة: G–E–C** على كلمة «بيب!» و«مرحبا يا أصحاب». يتكرر هذا الموتيف في المشهد 6 حرفيًا لتحقيق اللوب.
 - **الغناء:** صوت راوٍ دافئ مبتهج + أصوات الشخصيات في الردود (موو / بيب / أُنك)، أسلوب «نداء وجواب».
@@ -202,7 +204,7 @@ flashing lights, strobe, fast flicker, scary faces, sharp teeth, realistic anima
   - مشهد 5: **أعلى طاقة** (كل الآلات) لكن بنفس مستوى الصوت.
   - مشهد 6: تخفيف تدريجي ← رجوع موتيف البداية G–E–C ← ينتهي على نبضة تتصل ببداية الفيديو.
 - **برومبت لأداة توليد الموسيقى (Suno/Udio وغيرها):**
-  `Original cheerful toddler farm song, 112 BPM, C major, ukulele strum, marimba melody, soft pizzicato bass, light hand claps, shaker, glockenspiel sparkles, warm happy children's vocal with call-and-response animal sounds, simple pentatonic melody, gentle dynamics, no loud hits, no drops, 45 seconds, ends on the same 3-note intro motif so it loops seamlessly`
+  `Original cheerful toddler farm song, 128 BPM, C major, ukulele strum, marimba melody, soft pizzicato bass, light hand claps, shaker, glockenspiel sparkles, warm happy children's vocal with call-and-response animal sounds, simple pentatonic melody, gentle dynamics, no loud hits, no drops, 45 seconds, ends on the same 3-note intro motif so it loops seamlessly`
 
 ### المؤثرات الصوتية (SFX)
 | التوقيت | المؤثر | الملاحظة |
