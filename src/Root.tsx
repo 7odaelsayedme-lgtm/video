@@ -1,8 +1,11 @@
 import { Composition } from "remotion";
 import { MotionIntro, motionIntroSchema } from "./MotionIntro";
+import { FarmSong } from "./FarmSong";
+import { FPS, TOTAL } from "./farm/timing";
 
 export const RemotionRoot: React.FC = () => {
   return (
+    <>
     <Composition
       id="MotionIntro"
       component={MotionIntro}
@@ -18,5 +21,14 @@ export const RemotionRoot: React.FC = () => {
         tagline: "شكراً للمشاهدة",
       } satisfies motionIntroSchema}
     />
+    <Composition
+      id="FarmSong"
+      component={FarmSong}
+      durationInFrames={TOTAL}
+      fps={FPS}
+      width={1080}
+      height={1920}
+    />
+    </>
   );
 };
