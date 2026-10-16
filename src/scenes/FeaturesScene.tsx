@@ -26,7 +26,7 @@ export const FeaturesScene: React.FC<{ features: string[] }> = ({
       style={{
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: "row",
+        flexDirection: "column",
         gap: 60,
         opacity: exit,
       }}
@@ -39,8 +39,8 @@ export const FeaturesScene: React.FC<{ features: string[] }> = ({
           <div
             key={feature}
             style={{
-              width: 420,
-              height: 420,
+              width: 760,
+              height: 440,
               borderRadius: 48,
               background: "rgba(255,255,255,0.08)",
               border: `4px solid ${color}`,
@@ -50,7 +50,7 @@ export const FeaturesScene: React.FC<{ features: string[] }> = ({
               justifyContent: "center",
               alignItems: "center",
               gap: 30,
-              transform: `translateY(${interpolate(p, [0, 1], [300, 0]) + float}px) rotate(${interpolate(p, [0, 1], [-15, 0])}deg)`,
+              transform: `translateX(${interpolate(p, [0, 1], [i % 2 === 0 ? 900 : -900, 0])}px) translateY(${float}px) rotate(${interpolate(p, [0, 1], [-15, 0])}deg)`,
               opacity: p,
             }}
           >

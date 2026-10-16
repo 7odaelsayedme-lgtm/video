@@ -42,7 +42,8 @@ export const OutroScene: React.FC<{ brand: string; tagline: string }> = ({
       />
       <h2
         style={{
-          fontSize: 140,
+          fontSize: 130,
+          textAlign: "center",
           fontWeight: 900,
           color: colors.text,
           margin: 0,

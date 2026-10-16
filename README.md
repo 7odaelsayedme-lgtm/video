@@ -1,10 +1,10 @@
 # فيديو موشن جرافيك باستخدام Remotion
 
-فيديو موشن جرافيك (10 ثواني، 1920×1080، 30fps) مكتوب بـ React و [Remotion](https://www.remotion.dev).
+فيديو موشن جرافيك (10 ثواني، مقاس طولي للريلز 1080×1920، 30fps) مكتوب بـ React و [Remotion](https://www.remotion.dev).
 
 ## المشاهد
 1. **العنوان** (`src/scenes/TitleScene.tsx`) – عنوان بيدخل بحركة spring وخط ملوّن وعنوان فرعي.
-2. **المميزات** (`src/scenes/FeaturesScene.tsx`) – 3 كروت بتطلع ورا بعض وبتطفو.
+2. **المميزات** (`src/scenes/FeaturesScene.tsx`) – 3 كروت فوق بعض بتدخل من الجناب وبتطفو.
 3. **الختام** (`src/scenes/OutroScene.tsx`) – اسم البراند مع دايرة بتلف وجملة ختامية.
 4. **الخلفية** (`src/scenes/Background.tsx`) – تدرّج لوني وأشكال متحركة طول الفيديو.
 

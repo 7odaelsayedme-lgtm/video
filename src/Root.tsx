@@ -8,8 +8,8 @@ export const RemotionRoot: React.FC = () => {
       component={MotionIntro}
       durationInFrames={300}
       fps={30}
-      width={1920}
-      height={1080}
+      width={1080}
+      height={1920}
       defaultProps={{
         title: "موشن جرافيك",
         subtitle: "فيديو متحرك باستخدام Remotion و React",

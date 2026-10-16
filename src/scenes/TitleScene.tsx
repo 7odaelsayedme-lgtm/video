@@ -35,7 +35,9 @@ export const TitleScene: React.FC<{ title: string; subtitle: string }> = ({
     >
       <h1
         style={{
-          fontSize: 180,
+          fontSize: 130,
+          textAlign: "center",
+          lineHeight: 1.3,
           fontWeight: 900,
           color: colors.text,
           margin: 0,
@@ -56,7 +58,9 @@ export const TitleScene: React.FC<{ title: string; subtitle: string }> = ({
       />
       <p
         style={{
-          fontSize: 56,
+          fontSize: 52,
+          textAlign: "center",
+          maxWidth: 900,
           fontWeight: 400,
           color: colors.text,
           margin: 0,
