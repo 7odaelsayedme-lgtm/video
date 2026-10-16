@@ -7,7 +7,8 @@
     "dev": "remotion studio",
     "render": "remotion render MotionIntro out/video.mp4",
     "still": "remotion still MotionIntro out/thumbnail.png --frame=150",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "music": "node scripts/generate-music.mjs && ffmpeg -v error -y -i public/audio/music.wav -b:a 192k public/audio/music.mp3 && rm public/audio/music.wav"
   },
   "dependencies": {
     "@remotion/cli": "4.0.536",
